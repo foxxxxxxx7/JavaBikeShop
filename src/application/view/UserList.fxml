@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.UserListController">
+    <children>
+        <TableView fx:id="userTable" layoutX="-2.0" layoutY="100.0" prefHeight="453.0" prefWidth="690.0" />
+        <Label layoutX="309.0" layoutY="14.0" text="USERS" textFill="RED">
+            <font>
+                <Font name="Cambria Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="14.0" layoutY="563.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="164.0" text="EDIT USER">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="511.0" layoutY="563.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="164.0" text="DELETE USER">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="511.0" layoutY="51.0" mnemonicParsing="false" onAction="#handleCancelBtn" prefHeight="26.0" prefWidth="164.0" text="CANCEL">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+      <Button layoutX="263.0" layoutY="563.0" mnemonicParsing="false" onAction="#loadUserTable" prefHeight="30.0" prefWidth="164.0" text="LOAD USERS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

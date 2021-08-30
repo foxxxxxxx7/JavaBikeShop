@@ -1,0 +1,50 @@
+<object-stream>
+  <list>
+    <application.model.Reservation>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2021</int>
+        <byte>8</byte>
+        <byte>28</byte>
+      </date>
+      <custName>sefsef</custName>
+      <contactNum>sefs\ef</contactNum>
+      <bike>
+        <bikeID>100</bikeID>
+        <size>g</size>
+        <style>g</style>
+        <gender>g</gender>
+        <price>4.0</price>
+        <condition>g</condition>
+        <comment>g</comment>
+        <inStock>true</inStock>
+      </bike>
+      <duration>s\ef\sef</duration>
+      <pickUp>sdfg</pickUp>
+      <dropOff>sdfgsd</dropOff>
+    </application.model.Reservation>
+    <application.model.Reservation>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2021</int>
+        <byte>8</byte>
+        <byte>13</byte>
+      </date>
+      <custName>hello</custName>
+      <contactNum>drfgdrfg</contactNum>
+      <bike>
+        <bikeID>101</bikeID>
+        <size>s</size>
+        <style>b</style>
+        <gender>m</gender>
+        <price>20.0</price>
+        <condition>new</condition>
+        <comment>none</comment>
+        <inStock>true</inStock>
+      </bike>
+      <duration>2</duration>
+      <pickUp>w</pickUp>
+      <dropOff>2</dropOff>
+    </application.model.Reservation>
+  </list>
+</object-stream>

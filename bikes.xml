@@ -1,0 +1,24 @@
+<object-stream>
+  <list>
+    <application.model.Bike>
+      <bikeID>100</bikeID>
+      <size>g</size>
+      <style>ii</style>
+      <gender>g</gender>
+      <price>4.0</price>
+      <condition>oo</condition>
+      <comment>none</comment>
+      <inStock>true</inStock>
+    </application.model.Bike>
+    <application.model.Bike>
+      <bikeID>101</bikeID>
+      <size>s</size>
+      <style>b</style>
+      <gender>m</gender>
+      <price>20.0</price>
+      <condition>new</condition>
+      <comment>none</comment>
+      <inStock>true</inStock>
+    </application.model.Bike>
+  </list>
+</object-stream>
